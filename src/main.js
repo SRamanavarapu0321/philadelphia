@@ -6,5 +6,6 @@ import router from "./router";
 import store from "./store";
 
 import '@/assets/css/global.css';
+import './registerServiceWorker'
 
 createApp(App).use(store).use(router).mount("#app");
