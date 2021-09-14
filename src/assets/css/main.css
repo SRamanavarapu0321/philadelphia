@@ -1,0 +1,92 @@
+.is-transparent {
+    background: transparent;
+}
+p {
+    color: #6d6d6d;
+    line-height: 26px;
+}
+header {
+    background: #c6f0ff;
+    padding: 15px 15px 40px 15px;
+}
+.logo-wrapper {
+    align-items: flex-end;
+    padding: 0 15px;
+}
+.logo-wrapper h1 {
+    color: #444444;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+a.navbar-item {
+    color: #474748;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 0 7px;
+}
+
+a.active-menu {
+    background:#474748;
+    color: #fff;
+}
+.navbar.is-transparent a.navbar-item:hover,  .navbar.is-transparent a.navbar-item:focus{
+    background:#343435 !important;
+    color: #fff;
+}
+main {
+    margin-top: -30px;
+}
+.bg-color{
+    padding: 15px;
+    background-color: #fff;
+}
+.bg-img {
+    min-height: 450px;
+    background-image: url(../images/love-park-hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.content h3, .content h2 {
+    font-weight: 400;
+}
+.contact-sec h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.border-right {
+    border-right: 1px solid #8c8c8c;
+}
+.social-menu a{
+    text-decoration: none;
+}
+.contact-sec a {
+    display: flex;
+    align-items: center;
+}
+.contact-sec a i{
+    margin-left: 5px;
+}
+.footer-color {
+    background: #005395;
+    padding: 20px 0;
+    color: #fff;
+}
+.footer-2 .footer-color {
+    padding: 20px 10px;
+}
+.footer-color p, .footer-color a {
+    color: #fff;
+}
+.content h2 {
+    margin-bottom: 30px;
+}
+
+/* about page */
+.about header {
+    background: #fffabc;
+}
+
+
